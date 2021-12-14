@@ -1,0 +1,24 @@
+digraph ObjectGraph {
+  node[shape=box, style=filled, fillcolor=white];
+  o63070208[fontcolor=red];
+  o63070208[label="bytes\nb'\\xff\\xd8\\xff\\xfe\\x00\\x10Lavc58.35.100\\"];
+  o63070208[fillcolor="0,0,1"];
+  o139904654483936 -> o63070208;
+  o139904611775584 -> o63070208;
+  o139904567948464 -> o63070208;
+  o139904654483936[label="list\n5 items"];
+  o139904654483936[fillcolor="0,0,0.766667"];
+  o139904654901152 -> o139904654483936 [label="frames",weight=2];
+  o139904611775584 -> o139904654483936;
+  o139904611775584[label="list\n366312 items"];
+  o139904611775584[fillcolor="0,0,0.766667"];
+  o139904567948464[label="list\n3384 items"];
+  o139904567948464[fillcolor="0,0,0.766667"];
+  o139904654901152[label="dict\n2 items"];
+  o139904654901152[fillcolor="0,0,0.533333"];
+  o139904654764944 -> o139904654901152 [label="__dict__",weight=10];
+  o139904611775584 -> o139904654901152;
+  o139904654764944[label="Output\n<vsearch.indexing.cross_app_search.douyi"];
+  o139904654764944[fillcolor="0,0,0.3"];
+  o139904654764944[fontcolor=white];
+}

@@ -1,0 +1,6 @@
+digraph ObjectGraph {
+  node[shape=box, style=filled, fillcolor=white];
+  o62070784[fontcolor=red];
+  o62070784[label="bytes\nb'\\xff\\xd8\\xff\\xfe\\x00\\x10Lavc58.35.100\\"];
+  o62070784[fillcolor="0,0,1"];
+}

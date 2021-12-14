@@ -1,0 +1,19 @@
+digraph ObjectGraph {
+  node[shape=box, style=filled, fillcolor=white];
+  o4377530176[fontcolor=red];
+  o4377530176[label="OBJ\n<__main__.OBJ object at 0x104ebcf40>"];
+  o4377530176[fillcolor="0,0,1"];
+  o4379919872 -> o4377530176;
+  o4379919872[label="list\n1 items"];
+  o4379919872[fillcolor="0,0,0.93"];
+  o4375544896 -> o4379919872 [label="_cache",weight=2];
+  o4375544896[label="dict\n13 items"];
+  o4375544896[fillcolor="0,0,0.86"];
+  o4375582976 -> o4375544896 [label="__dict__",weight=10];
+  o4376184000 -> o4375544896 [label="__globals__",weight=10];
+  o4375582976[label="module\n__main__"];
+  o4375582976[fillcolor="0.3,1,0.79"];
+  o4376184000[label="function\n<function func_to_leak at 0x104d744c0>"];
+  o4376184000[fillcolor="0,0,0.79"];
+  o4375544896 -> o4376184000 [label="func_to_leak",weight=2];
+}
